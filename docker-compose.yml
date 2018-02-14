@@ -2,7 +2,15 @@ version: '3'
 
 services:
   wincontainercoreapp:
-    image: wincontainercoreapp
+    image: wincontainercoreapptest
     build:
       context: .
-      dockerfile: WinContainerCoreApp\Dockerfile
+      dockerfile: .\Dockerfile
+    ports:
+        - "7575:80"
+    volumes:
+      - .:C:\TestResult
+    
+
+        
+

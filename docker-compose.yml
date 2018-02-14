@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  wincontainercoreapp:
+    image: wincontainercoreapp
+    build:
+      context: .
+      dockerfile: WinContainerCoreApp\Dockerfile

@@ -15,10 +15,14 @@ Used Docker-Compose.yml file for composing it and mount a volume(Docker Concept)
 
 Commands for build and running the docker image. Run the below commands from the root of the project using cmd or powershell.
 
->>docker-compose build
+>>docker-compose build 
+
 >>docker-compose up
+
 >>docker images (chk if your images exist in the pool of images)
+
 >> docker ps(to check if the container is running)
+
 >>Goto http://localhost:7573 to verify the app
 
 This image can be pushed to public registry(Docker Hub) or any private registry like Azure Container Registry(ACR). 

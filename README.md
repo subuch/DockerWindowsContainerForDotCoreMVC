@@ -1,7 +1,7 @@
 # DockerWindowsContainerForDotCoreMVC
 
 
-Created a Docker Image for Restoring the packages, build the app(.NetCore App), run the unit test case(Xunit), publish the app within in the Windows Container. Find these changes in the DockerFile.
+Created a Docker Image for Restoring the packages, build the app(.NetCore App), run the unit test case(Xunit), publish the app within  the Windows Container. Find these changes in the DockerFile.
 
 Prerequisite: 
 1.	Install VS 2017 
